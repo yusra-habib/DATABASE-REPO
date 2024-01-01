@@ -1,3 +1,19 @@
+--xxgtm_TextileMachinery_mto
+CREATE TABLE xxgtm_TextileMachinery_mto (
+    machine_id INT PRIMARY KEY,
+    machine_type VARCHAR(50),
+    manufacturer VARCHAR(100),
+    installation_date DATE,
+    maintenance_schedule VARCHAR(50),
+    machine_status VARCHAR(50),
+    CREATED_BY     NUMBER,
+    CREATION_DATE  DATE,
+    LAST_UPDATED_BY NUMBER,
+    LAST_UPDATE_DATE DATE
+
+);
+
+
 --customer
 create table XX_GTM_CUSTOMER_MTO
 (
